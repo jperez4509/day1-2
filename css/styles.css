@@ -1,0 +1,46 @@
+body {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+.container {
+	width: 90%;
+	background-color: orange;
+	margin: 0 auto;
+}
+
+header, nav, main, aside, footer {
+	width: 90%;
+	margin: 0 auto;
+}
+
+header {
+	height: 75px;
+	background-color: blue;
+}
+
+nav {
+	height: 75px;
+	background-color: red;
+}
+
+main {
+	height: 200px;
+	background-color: green;
+	width: 70%;
+	float: left;
+	margin-left: 5%;
+}
+
+aside {
+	height: 200px;
+	background-color: pink;
+	width: 20%;
+	float: left;
+}
+
+footer {
+	height: 75px;
+	background-color: grey;
+	clear: both;
+}
